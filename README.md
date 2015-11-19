@@ -13,4 +13,4 @@ This is my homebrew formula for [cgit], a hyperfast web frontend for git reposit
 
 Installation instructions are a future endevaour.
 
-[cgit]: (http://git.zx2c4.com/cgit/)
+[cgit]: http://git.zx2c4.com/cgit/
