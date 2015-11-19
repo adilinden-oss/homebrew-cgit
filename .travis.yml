@@ -1,0 +1,17 @@
+os:
+  - osx
+language: c
+compiler:
+  - clang
+  - gcc
+before_install:
+  - brew update
+  - brew tap adilinden/homebrew-cgit
+  # upgrade only outdated dependencies
+  - comm -12 <(brew deps ./cgit.rb) <(brew outdated) | xargs brew upgrade
+  - brew ls
+install:
+  - brew install --only-dependencies ./cgit.rb
+script:
+  - brew audit ./cgit.rb
+  - brew reinstall ./cgit.rb --verbose
