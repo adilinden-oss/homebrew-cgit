@@ -1,6 +1,6 @@
 # Homebrew Cgit
 
-[![Build Status](https://travis-ci.org/adilinden/homebrew-cgit.svg?branch=master)](https://travis-ci.org/adilinden/homebrew-cgit)
+[![Build Status](https://travis-ci.org/adilinden-oss/homebrew-cgit.svg?branch=master)](https://travis-ci.org/adilinden-oss/homebrew-cgit)
 
 This is my homebrew formula for [cgit], a hyperfast web frontend for git repositories written in C.
 
