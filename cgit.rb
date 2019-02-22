@@ -1,9 +1,9 @@
 class Cgit < Formula
   desc "A hyperfast web frontend for git repositories written in C."
   homepage "http://git.zx2c4.com/cgit/"
-  url "http://git.zx2c4.com/cgit/snapshot/cgit-0.11.2.tar.bz2"
+  url "https://git.zx2c4.com/cgit/snapshot/cgit-0.11.2.tar.xz"
   #version "0.11.2"
-  sha256 "1426eeb797af4e2dab174b3b8481c5c8fa7fbf047d7d258d2da19e4f0da2699a"
+  sha256 "2e126e770693d7296c7eb5eb83b809410aef29870bfe8f54da072a3f4d813e3b"
 
   depends_on "gettext"
   depends_on "openssl"
